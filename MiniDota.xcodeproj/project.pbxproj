@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1823ED5A16883DE300812CDF /* SceneController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1823ED5816883DE300812CDF /* SceneController.cpp */; };
+		1852A6E8168317B30028777D /* ApplicationScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1852A6E6168317B30028777D /* ApplicationScene.cpp */; };
+		188AE7D616F6D8B30019683D /* GutModel_OpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 188AE7D416F6D8B30019683D /* GutModel_OpenGL.cpp */; };
+		1893A220168C2D33008B64C0 /* ModelSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1893A21E168C2D33008B64C0 /* ModelSurface.cpp */; };
+		189ADEA8167AF755001305D0 /* Directional.es2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 189ADEA0167AF72D001305D0 /* Directional.es2.frag */; };
+		189ADEA9167AF755001305D0 /* Directional.es2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 189ADEA1167AF72D001305D0 /* Directional.es2.vert */; };
+		18A85D1716A6A93900050B6B /* RenderData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A85D1516A6A93900050B6B /* RenderData.cpp */; };
+		18A85D2316A6ADDE00050B6B /* Global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A85D2116A6ADDE00050B6B /* Global.cpp */; };
+		18A896DF1677038F00730A54 /* ResourceManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A896DE1677038F00730A54 /* ResourceManager.mm */; };
+		18A896E81677046600730A54 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A896E61677046600730A54 /* TextureManager.cpp */; };
+		18A896F21677063300730A54 /* ShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A896F01677063300730A54 /* ShaderManager.cpp */; };
+		18B2063F1702E78A0012EB34 /* box.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B2063A1702E78A0012EB34 /* box.gma */; };
+		18B206401702E78A0012EB34 /* box_brick.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B2063B1702E78A0012EB34 /* box_brick.gma */; };
+		18B206411702E78A0012EB34 /* donut_v.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B2063C1702E78A0012EB34 /* donut_v.gma */; };
+		18B206421702E78A0012EB34 /* sphere_simple.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B2063D1702E78A0012EB34 /* sphere_simple.gma */; };
+		18B206431702E78A0012EB34 /* spotlight.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B2063E1702E78A0012EB34 /* spotlight.gma */; };
+		18B206451702E7DC0012EB34 /* teapot_set.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B206441702E7DC0012EB34 /* teapot_set.gma */; };
+		18B206471702E8C90012EB34 /* teapot_notex.gma in Resources */ = {isa = PBXBuildFile; fileRef = 18B206461702E8C90012EB34 /* teapot_notex.gma */; };
+		18BF928316D5EE3300280248 /* CGutModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18BF928116D5EE3300280248 /* CGutModel.cpp */; };
+		18DA4BDC16DF85F9008740AD /* SpotLighting.es2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 18DA4BDA16DF85E3008740AD /* SpotLighting.es2.frag */; };
+		18DA4BDD16DF85F9008740AD /* SpotLighting.es2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 18DA4BDB16DF85E4008740AD /* SpotLighting.es2.vert */; };
+		18DA4BDE16DF85F9008740AD /* PointLighting.es2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 18DA4BD716DF85D9008740AD /* PointLighting.es2.frag */; };
+		18DA4BDF16DF85F9008740AD /* PointLighting.es2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 18DA4BD816DF85D9008740AD /* PointLighting.es2.vert */; };
+		18DADFD51675B22E00CCBE69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DADFD41675B22E00CCBE69 /* UIKit.framework */; };
+		18DADFD71675B22E00CCBE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DADFD61675B22E00CCBE69 /* Foundation.framework */; };
+		18DADFD91675B22E00CCBE69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DADFD81675B22E00CCBE69 /* CoreGraphics.framework */; };
+		18DADFDF1675B22E00CCBE69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DADFDD1675B22E00CCBE69 /* InfoPlist.strings */; };
+		18DADFE11675B22E00CCBE69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DADFE01675B22E00CCBE69 /* main.m */; };
+		18DADFE51675B22E00CCBE69 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DADFE41675B22E00CCBE69 /* AppDelegate.mm */; };
+		18DADFE71675B22E00CCBE69 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DADFE61675B22E00CCBE69 /* Default.png */; };
+		18DADFE91675B22E00CCBE69 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DADFE81675B22E00CCBE69 /* Default@2x.png */; };
+		18DADFEB1675B22E00CCBE69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DADFEA1675B22E00CCBE69 /* Default-568h@2x.png */; };
+		18DAE0211675E96A00CCBE69 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18DAE0201675E96900CCBE69 /* EAGLView.mm */; };
+		18DAE0231675EB7200CCBE69 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DAE0221675EB7200CCBE69 /* OpenGLES.framework */; };
+		18DAE0251675EB7800CCBE69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DAE0241675EB7800CCBE69 /* QuartzCore.framework */; };
+		18EBB0D21687E7EC006501E2 /* RenderingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18EBB0D01687E7EC006501E2 /* RenderingScene.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1823ED5816883DE300812CDF /* SceneController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneController.cpp; sourceTree = "<group>"; };
+		1823ED5916883DE300812CDF /* SceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneController.h; sourceTree = "<group>"; };
+		1852A6E6168317B30028777D /* ApplicationScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ApplicationScene.cpp; sourceTree = "<group>"; };
+		1852A6E7168317B30028777D /* ApplicationScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationScene.h; sourceTree = "<group>"; };
+		188AE7D416F6D8B30019683D /* GutModel_OpenGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GutModel_OpenGL.cpp; sourceTree = "<group>"; };
+		188AE7D516F6D8B30019683D /* GutModel_OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GutModel_OpenGL.h; sourceTree = "<group>"; };
+		1893A21E168C2D33008B64C0 /* ModelSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModelSurface.cpp; sourceTree = "<group>"; };
+		1893A21F168C2D33008B64C0 /* ModelSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelSurface.h; sourceTree = "<group>"; };
+		1893A229168C346B008B64C0 /* ParametricSurface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParametricSurface.hpp; sourceTree = "<group>"; };
+		189ADEA0167AF72D001305D0 /* Directional.es2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Directional.es2.frag; sourceTree = "<group>"; };
+		189ADEA1167AF72D001305D0 /* Directional.es2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Directional.es2.vert; sourceTree = "<group>"; };
+		18A85D1516A6A93900050B6B /* RenderData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderData.cpp; sourceTree = "<group>"; };
+		18A85D1616A6A93900050B6B /* RenderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderData.h; sourceTree = "<group>"; };
+		18A85D2116A6ADDE00050B6B /* Global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Global.cpp; sourceTree = "<group>"; };
+		18A85D2216A6ADDE00050B6B /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		18A896DE1677038F00730A54 /* ResourceManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourceManager.mm; sourceTree = "<group>"; };
+		18A896E61677046600730A54 /* TextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		18A896E71677046600730A54 /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		18A896F01677063300730A54 /* ShaderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderManager.cpp; sourceTree = "<group>"; };
+		18A896F11677063300730A54 /* ShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderManager.h; sourceTree = "<group>"; };
+		18A89704167713B300730A54 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		18B2063A1702E78A0012EB34 /* box.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = box.gma; sourceTree = "<group>"; };
+		18B2063B1702E78A0012EB34 /* box_brick.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = box_brick.gma; sourceTree = "<group>"; };
+		18B2063C1702E78A0012EB34 /* donut_v.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = donut_v.gma; sourceTree = "<group>"; };
+		18B2063D1702E78A0012EB34 /* sphere_simple.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere_simple.gma; sourceTree = "<group>"; };
+		18B2063E1702E78A0012EB34 /* spotlight.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spotlight.gma; sourceTree = "<group>"; };
+		18B206441702E7DC0012EB34 /* teapot_set.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teapot_set.gma; sourceTree = "<group>"; };
+		18B206461702E8C90012EB34 /* teapot_notex.gma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teapot_notex.gma; sourceTree = "<group>"; };
+		18BF928116D5EE3300280248 /* CGutModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGutModel.cpp; sourceTree = "<group>"; };
+		18BF928216D5EE3300280248 /* CGutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGutModel.h; sourceTree = "<group>"; };
+		18DA4BD716DF85D9008740AD /* PointLighting.es2.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = PointLighting.es2.frag; sourceTree = "<group>"; };
+		18DA4BD816DF85D9008740AD /* PointLighting.es2.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = PointLighting.es2.vert; sourceTree = "<group>"; };
+		18DA4BDA16DF85E3008740AD /* SpotLighting.es2.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SpotLighting.es2.frag; sourceTree = "<group>"; };
+		18DA4BDB16DF85E4008740AD /* SpotLighting.es2.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SpotLighting.es2.vert; sourceTree = "<group>"; };
+		18DADFD01675B22E00CCBE69 /* MiniDota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniDota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DADFD41675B22E00CCBE69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18DADFD61675B22E00CCBE69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18DADFD81675B22E00CCBE69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18DADFDC1675B22E00CCBE69 /* MiniDota-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniDota-Info.plist"; sourceTree = "<group>"; };
+		18DADFDE1675B22E00CCBE69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18DADFE01675B22E00CCBE69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DADFE21675B22E00CCBE69 /* MiniDota-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniDota-Prefix.pch"; sourceTree = "<group>"; };
+		18DADFE31675B22E00CCBE69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DADFE41675B22E00CCBE69 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		18DADFE61675B22E00CCBE69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18DADFE81675B22E00CCBE69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18DADFEA1675B22E00CCBE69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18DAE0121675CE1C00CCBE69 /* MatrixCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixCustom.h; sourceTree = "<group>"; };
+		18DAE0131675CE8F00CCBE69 /* VectorCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VectorCustom.h; sourceTree = "<group>"; };
+		18DAE0181675D63900CCBE69 /* Matrix4x4_Reference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matrix4x4_Reference.h; sourceTree = "<group>"; };
+		18DAE0191675D7DE00CCBE69 /* Interfaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interfaces.h; sourceTree = "<group>"; };
+		18DAE01F1675E96900CCBE69 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		18DAE0201675E96900CCBE69 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		18DAE0221675EB7200CCBE69 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		18DAE0241675EB7800CCBE69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18E01EBB168BFC800023CA7E /* Vector4_Reference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector4_Reference.h; sourceTree = "<group>"; };
+		18EBB0D01687E7EC006501E2 /* RenderingScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingScene.cpp; sourceTree = "<group>"; };
+		18EBB0D11687E7EC006501E2 /* RenderingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingScene.h; sourceTree = "<group>"; };
+		18FA3C0316B60A1E0027C26E /* FastMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastMath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DADFCD1675B22E00CCBE69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DAE0251675EB7800CCBE69 /* QuartzCore.framework in Frameworks */,
+				18DAE0231675EB7200CCBE69 /* OpenGLES.framework in Frameworks */,
+				18DADFD51675B22E00CCBE69 /* UIKit.framework in Frameworks */,
+				18DADFD71675B22E00CCBE69 /* Foundation.framework in Frameworks */,
+				18DADFD91675B22E00CCBE69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1852A6E5168317B30028777D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1852A6E6168317B30028777D /* ApplicationScene.cpp */,
+				1852A6E7168317B30028777D /* ApplicationScene.h */,
+				18EBB0D01687E7EC006501E2 /* RenderingScene.cpp */,
+				18EBB0D11687E7EC006501E2 /* RenderingScene.h */,
+				1823ED5816883DE300812CDF /* SceneController.cpp */,
+				1823ED5916883DE300812CDF /* SceneController.h */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		1893A21D168C2D33008B64C0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1893A229168C346B008B64C0 /* ParametricSurface.hpp */,
+				1893A21E168C2D33008B64C0 /* ModelSurface.cpp */,
+				1893A21F168C2D33008B64C0 /* ModelSurface.h */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		189ADE9C167AF72D001305D0 /* RS */ = {
+			isa = PBXGroup;
+			children = (
+				18B206391702E78A0012EB34 /* VM */,
+				189ADE9F167AF72D001305D0 /* Shaders */,
+			);
+			path = RS;
+			sourceTree = "<group>";
+		};
+		189ADE9F167AF72D001305D0 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				18DA4BDA16DF85E3008740AD /* SpotLighting.es2.frag */,
+				18DA4BDB16DF85E4008740AD /* SpotLighting.es2.vert */,
+				18DA4BD716DF85D9008740AD /* PointLighting.es2.frag */,
+				18DA4BD816DF85D9008740AD /* PointLighting.es2.vert */,
+				189ADEA0167AF72D001305D0 /* Directional.es2.frag */,
+				189ADEA1167AF72D001305D0 /* Directional.es2.vert */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		18A896DD1677038F00730A54 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18BF928016D5EE3300280248 /* ModelManager */,
+				18A896EF1677063200730A54 /* ShaderManager */,
+				18A896E51677046600730A54 /* TextureManager */,
+				18A896DE1677038F00730A54 /* ResourceManager.mm */,
+				18A89704167713B300730A54 /* Singleton.h */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18A896E51677046600730A54 /* TextureManager */ = {
+			isa = PBXGroup;
+			children = (
+				18A896E61677046600730A54 /* TextureManager.cpp */,
+				18A896E71677046600730A54 /* TextureManager.h */,
+			);
+			path = TextureManager;
+			sourceTree = "<group>";
+		};
+		18A896EF1677063200730A54 /* ShaderManager */ = {
+			isa = PBXGroup;
+			children = (
+				18A896F01677063300730A54 /* ShaderManager.cpp */,
+				18A896F11677063300730A54 /* ShaderManager.h */,
+			);
+			path = ShaderManager;
+			sourceTree = "<group>";
+		};
+		18B206391702E78A0012EB34 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				18B2063A1702E78A0012EB34 /* box.gma */,
+				18B2063B1702E78A0012EB34 /* box_brick.gma */,
+				18B206461702E8C90012EB34 /* teapot_notex.gma */,
+				18B206441702E7DC0012EB34 /* teapot_set.gma */,
+				18B2063C1702E78A0012EB34 /* donut_v.gma */,
+				18B2063D1702E78A0012EB34 /* sphere_simple.gma */,
+				18B2063E1702E78A0012EB34 /* spotlight.gma */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		18BF928016D5EE3300280248 /* ModelManager */ = {
+			isa = PBXGroup;
+			children = (
+				18BF928116D5EE3300280248 /* CGutModel.cpp */,
+				18BF928216D5EE3300280248 /* CGutModel.h */,
+				188AE7D416F6D8B30019683D /* GutModel_OpenGL.cpp */,
+				188AE7D516F6D8B30019683D /* GutModel_OpenGL.h */,
+			);
+			path = ModelManager;
+			sourceTree = "<group>";
+		};
+		18DADFC51675B22E00CCBE69 = {
+			isa = PBXGroup;
+			children = (
+				18DADFDA1675B22E00CCBE69 /* MiniDota */,
+				18DADFD31675B22E00CCBE69 /* Frameworks */,
+				18DADFD11675B22E00CCBE69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DADFD11675B22E00CCBE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DADFD01675B22E00CCBE69 /* MiniDota.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DADFD31675B22E00CCBE69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DAE0221675EB7200CCBE69 /* OpenGLES.framework */,
+				18DAE0241675EB7800CCBE69 /* QuartzCore.framework */,
+				18DADFD41675B22E00CCBE69 /* UIKit.framework */,
+				18DADFD61675B22E00CCBE69 /* Foundation.framework */,
+				18DADFD81675B22E00CCBE69 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18DADFDA1675B22E00CCBE69 /* MiniDota */ = {
+			isa = PBXGroup;
+			children = (
+				18DADFF91675B3D000CCBE69 /* Engine */,
+				18DADFE31675B22E00CCBE69 /* AppDelegate.h */,
+				18DADFE41675B22E00CCBE69 /* AppDelegate.mm */,
+				189ADE9C167AF72D001305D0 /* RS */,
+				18DADFDB1675B22E00CCBE69 /* Supporting Files */,
+			);
+			path = MiniDota;
+			sourceTree = "<group>";
+		};
+		18DADFDB1675B22E00CCBE69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DADFDC1675B22E00CCBE69 /* MiniDota-Info.plist */,
+				18DADFDD1675B22E00CCBE69 /* InfoPlist.strings */,
+				18DADFE01675B22E00CCBE69 /* main.m */,
+				18DADFE21675B22E00CCBE69 /* MiniDota-Prefix.pch */,
+				18DADFE61675B22E00CCBE69 /* Default.png */,
+				18DADFE81675B22E00CCBE69 /* Default@2x.png */,
+				18DADFEA1675B22E00CCBE69 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DADFF91675B3D000CCBE69 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1893A21D168C2D33008B64C0 /* Entities */,
+				1852A6E5168317B30028777D /* Scene */,
+				18A896DD1677038F00730A54 /* Managers */,
+				18DAE0031675B69200CCBE69 /* Math */,
+				18DADFFA1675B3D000CCBE69 /* Tools */,
+				18DAE0191675D7DE00CCBE69 /* Interfaces.h */,
+				18DAE01F1675E96900CCBE69 /* EAGLView.h */,
+				18DAE0201675E96900CCBE69 /* EAGLView.mm */,
+				18A85D1516A6A93900050B6B /* RenderData.cpp */,
+				18A85D1616A6A93900050B6B /* RenderData.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		18DADFFA1675B3D000CCBE69 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18A85D2116A6ADDE00050B6B /* Global.cpp */,
+				18A85D2216A6ADDE00050B6B /* Global.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18DAE0031675B69200CCBE69 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				18FA3C0316B60A1E0027C26E /* FastMath.h */,
+				18DAE0121675CE1C00CCBE69 /* MatrixCustom.h */,
+				18DAE0131675CE8F00CCBE69 /* VectorCustom.h */,
+				18DAE0181675D63900CCBE69 /* Matrix4x4_Reference.h */,
+				18E01EBB168BFC800023CA7E /* Vector4_Reference.h */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DADFCF1675B22E00CCBE69 /* MiniDota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DADFEE1675B22E00CCBE69 /* Build configuration list for PBXNativeTarget "MiniDota" */;
+			buildPhases = (
+				18DADFCC1675B22E00CCBE69 /* Sources */,
+				18DADFCD1675B22E00CCBE69 /* Frameworks */,
+				18DADFCE1675B22E00CCBE69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniDota;
+			productName = MiniDota;
+			productReference = 18DADFD01675B22E00CCBE69 /* MiniDota.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DADFC71675B22E00CCBE69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 18DADFCA1675B22E00CCBE69 /* Build configuration list for PBXProject "MiniDota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18DADFC51675B22E00CCBE69;
+			productRefGroup = 18DADFD11675B22E00CCBE69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DADFCF1675B22E00CCBE69 /* MiniDota */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DADFCE1675B22E00CCBE69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA4BDC16DF85F9008740AD /* SpotLighting.es2.frag in Resources */,
+				18DA4BDD16DF85F9008740AD /* SpotLighting.es2.vert in Resources */,
+				18DA4BDE16DF85F9008740AD /* PointLighting.es2.frag in Resources */,
+				18DA4BDF16DF85F9008740AD /* PointLighting.es2.vert in Resources */,
+				189ADEA8167AF755001305D0 /* Directional.es2.frag in Resources */,
+				189ADEA9167AF755001305D0 /* Directional.es2.vert in Resources */,
+				18DADFDF1675B22E00CCBE69 /* InfoPlist.strings in Resources */,
+				18DADFE71675B22E00CCBE69 /* Default.png in Resources */,
+				18DADFE91675B22E00CCBE69 /* Default@2x.png in Resources */,
+				18DADFEB1675B22E00CCBE69 /* Default-568h@2x.png in Resources */,
+				18B2063F1702E78A0012EB34 /* box.gma in Resources */,
+				18B206401702E78A0012EB34 /* box_brick.gma in Resources */,
+				18B206411702E78A0012EB34 /* donut_v.gma in Resources */,
+				18B206421702E78A0012EB34 /* sphere_simple.gma in Resources */,
+				18B206431702E78A0012EB34 /* spotlight.gma in Resources */,
+				18B206451702E7DC0012EB34 /* teapot_set.gma in Resources */,
+				18B206471702E8C90012EB34 /* teapot_notex.gma in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DADFCC1675B22E00CCBE69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DADFE11675B22E00CCBE69 /* main.m in Sources */,
+				18DADFE51675B22E00CCBE69 /* AppDelegate.mm in Sources */,
+				18DAE0211675E96A00CCBE69 /* EAGLView.mm in Sources */,
+				18A896DF1677038F00730A54 /* ResourceManager.mm in Sources */,
+				18A896E81677046600730A54 /* TextureManager.cpp in Sources */,
+				18A896F21677063300730A54 /* ShaderManager.cpp in Sources */,
+				1852A6E8168317B30028777D /* ApplicationScene.cpp in Sources */,
+				18EBB0D21687E7EC006501E2 /* RenderingScene.cpp in Sources */,
+				1823ED5A16883DE300812CDF /* SceneController.cpp in Sources */,
+				1893A220168C2D33008B64C0 /* ModelSurface.cpp in Sources */,
+				18A85D1716A6A93900050B6B /* RenderData.cpp in Sources */,
+				18A85D2316A6ADDE00050B6B /* Global.cpp in Sources */,
+				18BF928316D5EE3300280248 /* CGutModel.cpp in Sources */,
+				188AE7D616F6D8B30019683D /* GutModel_OpenGL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18DADFDD1675B22E00CCBE69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DADFDE1675B22E00CCBE69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DADFEC1675B22E00CCBE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DADFED1675B22E00CCBE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DADFEF1675B22E00CCBE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniDota/MiniDota-Prefix.pch";
+				INFOPLIST_FILE = "MiniDota/MiniDota-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18DADFF01675B22E00CCBE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniDota/MiniDota-Prefix.pch";
+				INFOPLIST_FILE = "MiniDota/MiniDota-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DADFCA1675B22E00CCBE69 /* Build configuration list for PBXProject "MiniDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DADFEC1675B22E00CCBE69 /* Debug */,
+				18DADFED1675B22E00CCBE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DADFEE1675B22E00CCBE69 /* Build configuration list for PBXNativeTarget "MiniDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DADFEF1675B22E00CCBE69 /* Debug */,
+				18DADFF01675B22E00CCBE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DADFC71675B22E00CCBE69 /* Project object */;
+}
