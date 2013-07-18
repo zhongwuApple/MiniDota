@@ -47,18 +47,11 @@ void ShaderManager::ReadShader(char *rs, const string& name, int len)
     int cout = 0;
     while (cout<len)
     {
-        if (cout<len-1)
-        {
-            char c = objFile.get();
-            rs[cout] = c;
-        }
-        else
-        {
-            rs[len-1] = '\0';
-            break;
-        }
+        char c = objFile.get();
+        rs[cout] = c;
         cout++;
     }
+    rs[len] = '\0';
 }
 
 
